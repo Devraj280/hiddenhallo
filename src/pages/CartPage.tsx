@@ -8,7 +8,7 @@ const CartPage: React.FC = () => {
   const { state, dispatch } = useCart();
   const { user } = useAuth();
   const navigate = useNavigate();
-
+ 
   const handleCheckout = () => {
     if (!user) {
       navigate('/auth');

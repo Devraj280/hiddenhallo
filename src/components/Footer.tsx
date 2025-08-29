@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Instagram, Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
-
+ 
 const Footer: React.FC = () => {
   return (
     <footer className="bg-deep-teal text-white">

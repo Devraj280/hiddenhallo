@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useReducer, ReactNode } from 'react';
 import { trackAddToCart } from '@/components/GoogleAnalytics';
-
+ 
 export interface CartItem {
   id: string;
   name: string;

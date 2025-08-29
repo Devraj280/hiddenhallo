@@ -7,7 +7,7 @@ import { createClient } from "@supabase/supabase-js";
 const supabase = createClient(
   "https://rjnmnzcawzvqgmldrwvg.supabase.co", // your Supabase project URL
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJqbm1uemNhd3p2cWdtbGRyd3ZnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUwODczOTgsImV4cCI6MjA3MDY2MzM5OH0.5ge3xaPpGmdPdIU4kzf_0m9i3dc23pXBq0nWzYmdGjk" // ⚠️ replace with your anon key from Supabase settings
-);
+); 
 
 export default function Login() {
   const [user, setUser] = useState<any>(null);

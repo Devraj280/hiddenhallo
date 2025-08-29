@@ -12,7 +12,6 @@ declare global {
 
 const GoogleAnalytics = () => {
   const location = useLocation();
-
   useEffect(() => {
     if (typeof window.gtag === "function") {
       // Enhanced page tracking with more parameters

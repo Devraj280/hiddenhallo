@@ -10,6 +10,7 @@ const GoogleAnalyticsTest: React.FC = () => {
       alert('Google Analytics not working. Check console for errors.');
     }
   };
+ 
 
   return (
     <div className="fixed bottom-4 right-4 z-50">

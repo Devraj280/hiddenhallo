@@ -8,7 +8,7 @@ import heroImage2 from '@/assets/hero-carousel-2.jpg';
 import heroImage3 from '@/assets/hero-carousel-3.jpg';
 
 const heroSlides = [
-  {
+  { 
     image: heroImage1,
     title: "Discover the Beauty of",
     subtitle: "Oxidized Art",
